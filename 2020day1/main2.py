@@ -15,7 +15,7 @@ inputd.close()
 
 data.sort()
 listlen = len(data)
-#takes the starting number and look for two other numbers in the array that add up to 2020. if there are none, adjust the locations we should look in the array depending on if 
+#takes the starting number and look for two other numbers in the array that add up to 2020. if there are none, adjust the locations we should look in the array depending on if the total sum was too high or two low 
 #This logic uses the two-pointer technique. More can be found on this online
 # If you are having trouble understanding the two-pointer technique this video gives a good simple summary https://www.youtube.com/watch?v=dQw4w9WgXcQ
 for i in range(0, listlen-2):
